@@ -1,38 +1,141 @@
-.App {
-  text-align: center;
+.landingpage {
+    height: auto;
+    width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.activeimg img {
+    height: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.activeimg {
+    height: 37rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+.navbar-text img {
+    height: 10%;
+    width: 25%;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-link {
+    font-size: 1rem;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.searchform {
+    height: 10rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://images.unsplash.com/photo-1518365050014-70fe7232897f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.searchfilter {
+    height: 50%;
+    width: 50%;
+    box-shadow: 0px 0px 1px rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.searchfilter select {
+    color: rgb(0, 0, 0);
+    width: 45%;
+}
+
+.searchfilter input {
+    height: 50%;
+    width: 40%;
+    outline: none;
+    border-radius: .3rem;
+    font-size: 1.3rem;
+    background-color: rgb(255, 255, 255);
+}
+
+.searchfilter button {
+    height: 50%;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+    background-color: white;
+    border: none;
+    border-radius: .2rem;
+}
+
+
+.datagrid {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    /* margin-top: 3rem; */
+    background-image: url(https://camo.githubusercontent.com/2a2dfb8b139de852f33a0a268fad5a1bf5ed32b459f3193fe296a26eb9a54e4d/68747470733a2f2f6c6976652e737461746963666c69636b722e636f6d2f36353533352f34393138353134393132325f333766356335326534335f6b2e6a7067);
+
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: .8;
+   
+}
+
+.cards {
+    position: fixed;
+    width: 30rem;
+    height: 20rem;
+    top: 25%;
+    left: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0px 0px 2px rgb(238, 235, 235);
+    border-radius: .5rem;
+  background-color: white;
+
+}
+
+.cards p {
+    background-color: rgb(242, 240, 243);
+    color: rgb(8, 7, 7);
+}
+
+.cards p span {
+    background-color: rgb(246, 246, 246);
+    color: rgb(0, 0, 255);
+    margin-left: 1rem;
+}
+
+
+.card {
+    width: 25%;
+    box-shadow: 0px 0px 2px rgb(238, 235, 235);
+    margin: 1rem;
+    border-radius: .5rem;
+    color: rgb(202, 202, 202);
+    background-color: black;
+}
+
+
+
+.list-group-flush li {
+    background-color: black;
+    border: black;
+    color: rgb(167, 167, 167);
+}
+
+.list-group-flush li span {
+    color: rgb(164, 255, 147);
+    margin-left: 1rem;
 }
